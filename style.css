@@ -446,18 +446,18 @@ section {
 }
 
 /*--------------------------------------------------------------
-  # Portfolio
+  # Projects
   --------------------------------------------------------------*/
-#portfolio {
+#Projects {
     background-color: #e8eff8;
 }
 
 
-.portfolio .portfolio-item {
+.Projects .Projects-item {
     margin-bottom: 30px;
 }
 
-.portfolio #portfolio-flters {
+.Projects #Projects-flters {
     padding: 0;
     margin: 0 auto 25px auto;
     list-style: none;
@@ -467,7 +467,7 @@ section {
     padding: 2px 15px;
 }
 
-.portfolio #portfolio-flters li {
+.Projects #Projects-flters li {
     cursor: pointer;
     display: inline-block;
     padding: 10px 15px;
@@ -480,16 +480,16 @@ section {
     transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
+.Projects #Projects-flters li:hover,
+.Projects #Projects-flters li.filter-active {
     color: #520D48;
 }
 
-.portfolio #portfolio-flters li:last-child {
+.Projects #Projects-flters li:last-child {
     margin-right: 0;
 }
 
-.portfolio .portfolio-wrap {
+.Projects .Projects-wrap {
     transition: 0.3s;
     position: relative;
     overflow: hidden;
@@ -497,7 +497,7 @@ section {
     background: rgba(69, 80, 91, 0.8);
 }
 
-.portfolio .portfolio-wrap::before {
+.Projects .Projects-wrap::before {
     content: "";
     background: rgba(255, 255, 255, 0.7);
     position: absolute;
@@ -510,7 +510,7 @@ section {
     opacity: 0;
 }
 
-.portfolio .portfolio-wrap .portfolio-info {
+.Projects .Projects-wrap .Projects-info {
     opacity: 0;
     position: absolute;
     top: 0;
@@ -526,7 +526,7 @@ section {
     align-items: center;
 }
 
-.portfolio .portfolio-wrap .portfolio-info::before {
+.Projects .Projects-wrap .Projects-info::before {
     display: block;
     content: "";
     width: 48px;
@@ -540,7 +540,7 @@ section {
     z-index: 9994;
 }
 
-.portfolio .portfolio-wrap .portfolio-info::after {
+.Projects .Projects-wrap .Projects-info::after {
     display: block;
     content: "";
     width: 48px;
@@ -554,13 +554,13 @@ section {
     z-index: 9994;
 }
 
-.portfolio .portfolio-wrap .portfolio-info h4 {
+.Projects .Projects-wrap .Projects-info h4 {
     font-size: 20px;
     color: #45505b;
     font-weight: 600;
 }
 
-.portfolio .portfolio-wrap .portfolio-info p {
+.Projects .Projects-wrap .Projects-info p {
     color: #45505b;
     font-size: 14px;
     text-transform: uppercase;
@@ -568,12 +568,12 @@ section {
     margin: 0;
 }
 
-.portfolio .portfolio-wrap .portfolio-links {
+.Projects .Projects-wrap .Projects-links {
     text-align: center;
     z-index: 4;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a {
+.Projects .Projects-wrap .Projects-links a {
     color: #45505b;
     margin: 0 2px;
     font-size: 28px;
@@ -581,11 +581,11 @@ section {
     transition: 0.3s;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a:hover {
+.Projects .Projects-wrap .Projects-links a:hover {
     color: #520D48;
 }
 
-.portfolio .portfolio-wrap:hover::before {
+.Projects .Projects-wrap:hover::before {
     top: 0;
     left: 0;
     right: 0;
@@ -593,37 +593,37 @@ section {
     opacity: 1;
 }
 
-.portfolio .portfolio-wrap:hover .portfolio-info {
+.Projects .Projects-wrap:hover .Projects-info {
     opacity: 1;
 }
 
-.portfolio .portfolio-wrap:hover .portfolio-info::before {
+.Projects .Projects-wrap:hover .Projects-info::before {
     top: 15px;
     left: 15px;
 }
 
-.portfolio .portfolio-wrap:hover .portfolio-info::after {
+.Projects .Projects-wrap:hover .Projects-info::after {
     bottom: 15px;
     right: 15px;
 }
 
 /*--------------------------------------------------------------
-  # Portfolio Details
+  # Projects Details
   --------------------------------------------------------------*/
-.portfolio-details {
+.Projects-details {
     padding-top: 40px;
 }
 
-.portfolio-details .portfolio-details-slider img {
+.Projects-details .Projects-details-slider img {
     width: 100%;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination {
+.Projects-details .Projects-details-slider .swiper-pagination {
     margin-top: 20px;
     position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.Projects-details .Projects-details-slider .swiper-pagination .swiper-pagination-bullet {
     width: 12px;
     height: 12px;
     background-color: #fff;
@@ -631,16 +631,16 @@ section {
     border: 1px solid #520D48;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.Projects-details .Projects-details-slider .swiper-pagination .swiper-pagination-bullet-active {
     background-color: #520D48;
 }
 
-.portfolio-details .portfolio-info {
+.Projects-details .Projects-info {
     padding: 30px;
     box-shadow: 0px 0 30px rgba(69, 80, 91, 0.08);
 }
 
-.portfolio-details .portfolio-info h3 {
+.Projects-details .Projects-info h3 {
     font-size: 22px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -648,27 +648,27 @@ section {
     border-bottom: 1px solid #eee;
 }
 
-.portfolio-details .portfolio-info ul {
+.Projects-details .Projects-info ul {
     list-style: none;
     padding: 0;
     font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.Projects-details .Projects-info ul li+li {
     margin-top: 10px;
 }
 
-.portfolio-details .portfolio-description {
+.Projects-details .Projects-description {
     padding-top: 30px;
 }
 
-.portfolio-details .portfolio-description h2 {
+.Projects-details .Projects-description h2 {
     font-size: 26px;
     font-weight: 700;
     margin-bottom: 20px;
 }
 
-.portfolio-details .portfolio-description p {
+.Projects-details .Projects-description p {
     padding: 0;
 }
 
@@ -676,9 +676,9 @@ section {
 /*--------------------------------------------------------------
   # Contact
   --------------------------------------------------------------*/
-.contact-section {
-    background-color: #f8f9fa;
-    padding: 80px 0;
+
+
+  .contact-section {
 }
 
 .contact-info {
@@ -702,14 +702,23 @@ section {
     transform: translateY(-5px);
 }
 
+.box a{
+    text-decoration: none;
+    color: #333333;
+}
+
 .box h3 {
-    font-size: 18px;
+    font-size: 18hpx;
     margin-bottom: 15px;
 }
 
 .box p {
     font-size: 16px;
-    color: #555;
+}
+
+.box  p a{
+    color: #520D48;
+    text-decoration: none;
 }
 
 .icon {
@@ -787,7 +796,7 @@ section {
 }
 
 #footer .social-links a:hover {
-    background: #520D48;
+    background: #713161;
     color: #fff;
     text-decoration: none;
 }
@@ -799,3 +808,81 @@ section {
 #footer .credits {
     font-size: 13px;
 }
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    overflow: hidden;
+    background: #fff;
+  }
+  
+  #preloader:before {
+    content: "";
+    position: fixed;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    border: 6px solid #520D48;
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: animate-preloader 1s linear infinite;
+  }
+  
+  @keyframes animate-preloader {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /*--------------------------------------------------------------
+  # Disable aos animation delay on mobile devices
+  --------------------------------------------------------------*/
+  @media screen and (max-width: 768px) {
+    [data-aos-delay] {
+      transition-delay: 0 !important;
+    }
+  }
+
+  /*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: #520D48;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    transition: all 0.4s;
+  }
+  
+  .back-to-top i {
+    font-size: 28px;
+    color: #fff;
+    line-height: 0;
+  }
+  
+  .back-to-top:hover {
+    background: #713161;
+    color: #fff;
+  }
+  
+  .back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+  }
+  
