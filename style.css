@@ -167,14 +167,18 @@ body {
     height: 100%;
     background: url("./assest/deep.jpg") top right no-repeat;
     background-size: cover;
-    filter: blur(9px); /* Adjust the blur level as needed */
-    z-index: -1; /* Ensure the blurred image is behind the content */
+    filter: blur(9px);
+    /* Adjust the blur level as needed */
+    z-index: -1;
+    /* Ensure the blurred image is behind the content */
 }
 
 #hero .container {
     position: relative;
-    z-index: 1; /* Ensure the content is above the blurred background */
-    color: #fff; /* Optional: Set the text color to white for better visibility */
+    z-index: 1;
+    /* Ensure the content is above the blurred background */
+    color: #fff;
+    /* Optional: Set the text color to white for better visibility */
 }
 
 
@@ -300,7 +304,13 @@ section {
   # About
   --------------------------------------------------------------*/
 
-  .about .content h3 {
+#about img {
+    border: 2px solid #520D48;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(82, 13, 72, 0.8);
+}
+
+.about .content h2 {
     font-weight: 700;
     font-size: 26px;
     color: #728394;
@@ -337,11 +347,11 @@ section {
   # Akills
   --------------------------------------------------------------*/
 
-  #skills{
+#skills {
     background-color: #e8eff8;
-      }
+}
 
-  .skills .progress {
+.skills .progress {
     height: 60px;
     display: block;
     background: none;
@@ -438,12 +448,12 @@ section {
 /*--------------------------------------------------------------
   # Portfolio
   --------------------------------------------------------------*/
-  #portfolio{
+#portfolio {
     background-color: #e8eff8;
-      }
+}
 
 
-  .portfolio .portfolio-item {
+.portfolio .portfolio-item {
     margin-bottom: 30px;
 }
 
